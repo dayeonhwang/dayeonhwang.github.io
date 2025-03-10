@@ -35,7 +35,7 @@ const Header: React.FC = () => {
                     <a href="https://www.instagram.com/dayeonhwangg/" target="_blank" rel="noopener noreferrer">
                     <IconButton icon={<FaInstagram />} />
                     </a>
-                    <a href="https://github.com/dayeonhwang1" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/dayeonhwang" target="_blank" rel="noopener noreferrer">
                     <IconButton icon={<FaGithub />} />
                     </a>
                     <a href="mailto:contact@dayeonhwang.com" target="_blank" rel="noopener noreferrer">
