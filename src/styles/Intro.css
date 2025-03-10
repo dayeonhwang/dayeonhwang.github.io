@@ -1,3 +1,22 @@
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.logo-container {
+  width: 70px;
+  height: auto;
+}
+
+.intro-logo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .title {
     font-size: 50px;
     font-weight: semi-bold;
@@ -25,6 +44,10 @@
     .title {
       font-size: 30px; /* Reduce font size for smaller screens */
     }
+
+    .intro-logo {
+      width: 50px; /* Adjust logo size for smaller screens */
+    }
   }
 
   /* Button styling */
@@ -51,6 +74,10 @@
   }
   
   @media (max-width: 600px) {
+    .coming-soon-button {
+      margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
     .coming-soon-button:active {
       background: linear-gradient(45deg, #ff6ec4, #7873f5); /* Change background on click */
       transform: scale(1.05); /* Slightly enlarge the button on hover */

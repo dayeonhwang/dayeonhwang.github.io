@@ -51,7 +51,6 @@
     background-color: #e0e0e0; /* Light background on hover */
 }
 
-
 .logo-container {
     flex: 1;
     display: flex;
@@ -73,10 +72,12 @@
     height: auto; /* Adjust size as needed */
 }
 
-.logo-title:hover, .logo-subtitle:hover {
-    color: #a79999; /* Change color on hover */
-    cursor: pointer; /* Change cursor on hover */
-}
+/* Responsive styling */
+@media (max-width: 600px) {
+    .logo-image {
+      width: 30px; /* Adjust logo size for smaller screens */
+    }
+  }
 
 .social-icons {
     display: flex;
