@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 20px;
     z-index: 1000;
     border-radius: 8px; /* Rounded corners */
     font-weight: "semi-bold";
@@ -68,12 +68,9 @@
     font-style: normal;
 }
 
-.logo-subtitle {
-    font-size: 20px;
-    color: #666;
-    font-family: "DM Serif Text", serif;
-    font-weight: 400;
-    font-style: normal;
+.logo-image {
+    width: 50px; /* Adjust size as needed */
+    height: auto; /* Adjust size as needed */
 }
 
 .logo-title:hover, .logo-subtitle:hover {
